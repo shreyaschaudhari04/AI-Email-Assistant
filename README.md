@@ -43,21 +43,21 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 
 
 ## 🌍 Deployment
-Backend deployed via Render (Docker-based)
+- Backend deployed via Render (Docker-based)
 
-React frontend deployed on Netlify
+- React frontend deployed on Netlify
 
-Chrome Extension can be packed and published to Chrome Web Store
+- Chrome Extension can be packed and published to Chrome Web Store
 
 
 ## 🙌 Acknowledgments
-Google Gemini API
+- Google Gemini API
 
-Render
+- Render
 
-Netlify
+- Netlify
 
-Gmail DOM Integration
+- Gmail DOM Integration
 
 
 
