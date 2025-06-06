@@ -10,26 +10,14 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 - 💻 Frontend built with React.
 - 🧩 Extension activates when Gmail compose window opens.
 
-
----
-
-## 🗂️ Project Structure
-
-AI-Email-Assistant/
-├── email-backend/ # Spring Boot backend (Java)
-├── email-frontend/ # React-based frontend (Netlify deployable)
-├── email-writer-extension/ # Chrome extension to interact with Gmail
-└── README.md
-
-
 ---
 
 ## 🚀 How It Works
 
 1. The Chrome extension detects when you open a Gmail compose window.
 2. Adds an `AI Reply` button to the Gmail toolbar.
-3. On click, it sends the email content to your Spring Boot backend.
-4. The backend uses Google Gemini to generate a professional reply.
+3. On click, it sends the email content to the Spring Boot backend.
+4. The backend integrated with Google Gemini generates a professional reply.
 5. The response is inserted directly into your email compose box.
 
 ---
@@ -37,7 +25,7 @@ AI-Email-Assistant/
 ## 🔧 Technologies Used
 
 ### 🔙 Backend
-- Java 17
+- Java 21
 - Spring Boot
 - Google Gemini API
 - Hosted on [Render](https://render.com)
@@ -62,6 +50,14 @@ React frontend deployed on Netlify
 Chrome Extension can be packed and published to Chrome Web Store
 
 
+##🙌 Acknowledgments
+Google Gemini API
+
+Render
+
+Netlify
+
+Gmail DOM Integration
 
 
 
