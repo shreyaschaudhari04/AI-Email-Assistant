@@ -49,6 +49,8 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 
 - Chrome Extension can be packed and published to Chrome Web Store
 
+---
+
 
 ## 🙌 Acknowledgments
 - Google Gemini API
