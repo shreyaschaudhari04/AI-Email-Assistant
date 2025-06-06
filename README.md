@@ -36,29 +36,23 @@ AI-Email-Assistant/
 
 ## 🔧 Technologies Used
 
-- **Frontend**: React, TailwindCSS
-- **Chrome Extension**: JavaScript, Chrome APIs
-- **Backend**: Java, Spring Boot, Maven
-- **AI Integration**: Google Gemini API
-- **Deployment**: Render (Backend), Netlify (Frontend)
+### 🔙 Backend
+- Java 17
+- Spring Boot
+- Google Gemini API
+- Hosted on [Render](https://render.com)
+
+ ### 🧩 Extension
+- Chrome Extension (Manifest V3)
+- Content Script + Service Worker
+- Icons and AI Button integration
+
+### 🔜 Frontend
+- React (for optional UI panel)
+- Tailwind CSS
 
 ---
 
-## 📦 Installation Guide
-
-### 1. Backend (Spring Boot)
-
-#### Prerequisites:
-- Java 17 or above
-- Maven
-
-#### Steps:
-
-```bash
-cd email-backend
-# Add your API key and URL to application.properties or as environment variables
-./mvnw clean install
-java -jar target/email-writer-0.0.1-SNAPSHOT.jar
 
 ##🌍 Deployment
 Backend deployed via Render (Docker-based)
@@ -66,6 +60,10 @@ Backend deployed via Render (Docker-based)
 React frontend deployed on Netlify
 
 Chrome Extension can be packed and published to Chrome Web Store
+
+
+
+
 
 
 
