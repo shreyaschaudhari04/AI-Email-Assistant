@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const res = await axios.post("http://localhost:8080/api/email/generate", {
+      const res = await axios.post("https://ai-email-assistant-8w3p.onrender.com/api/email/generate", {
         emailContent, 
         tone,
       });
