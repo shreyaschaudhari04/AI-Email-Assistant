@@ -7,9 +7,9 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 - 🧠 Automatically generates professional email replies using Google Gemini AI.
 - 📩 Seamlessly integrates with Gmail UI.
 - ⚙️ Backend powered by Spring Boot, deployable on Render.
-- 💻 Frontend built with React (Netlify compatible).
+- 💻 Frontend built with React.
 - 🧩 Extension activates when Gmail compose window opens.
-- 🔒 Uses environment variables for API key security.
+
 
 ---
 
