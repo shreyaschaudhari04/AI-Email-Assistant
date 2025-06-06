@@ -12,6 +12,15 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 
 ---
 
+## 📁 Project Structure (Basic Overview)
+
+├── email-backend/ # Spring Boot backend (handles Gemini API and reply generation)
+├── email-frontend/ # React frontend (optional UI interface for composing replies)
+├── email-writer-extension/ # Chrome extension (injects AI reply button into Gmail UI)
+├── README.md # Project documentation
+
+---
+
 ## 🚀 How It Works
 
 1. The Chrome extension detects when you open a Gmail compose window.
