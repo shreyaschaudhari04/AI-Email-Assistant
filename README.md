@@ -60,3 +60,12 @@ cd email-backend
 ./mvnw clean install
 java -jar target/email-writer-0.0.1-SNAPSHOT.jar
 
+##🌍 Deployment
+Backend deployed via Render (Docker-based)
+
+React frontend deployed on Netlify
+
+Chrome Extension can be packed and published to Chrome Web Store
+
+
+
