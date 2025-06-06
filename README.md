@@ -14,10 +14,12 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 
 ## 📁 Project Structure (Basic Overview)
 
-├── email-backend/ # Spring Boot backend (handles Gemini API and reply generation)
-├── email-frontend/ # React frontend (optional UI interface for composing replies)
-├── email-writer-extension/ # Chrome extension (injects AI reply button into Gmail UI)
-├── README.md # Project documentation
+AI-Email-Assistant/
+├── email-backend/             # Spring Boot backend (handles Gemini API and reply generation)
+├── email-frontend/            # React frontend (optional UI interface for composing replies)
+├── email-writer-extension/    # Chrome extension (injects AI reply button into Gmail UI)
+├── README.md                  # Project documentation
+
 
 ---
 
