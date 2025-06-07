@@ -65,7 +65,7 @@ function injectButton(){
             button.disabled = true;
 
             const emailContent = getEmailContent();
-            const response = await fetch('https://ai-email-assistant-8w3p.onrender.com/api/email/generate', {
+            const response = await fetch('https://ai-email-assistant-ffb3.onrender.com/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
