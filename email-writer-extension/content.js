@@ -64,7 +64,7 @@ function injectButton(){
             button.innerHTML = 'Generating...';
             button.disabled = true;
 
-            const emailContent = getEmailContent();
+            const emailContent = getEmailContent(); 
             const response = await fetch('https://ai-email-assistant-ffb3.onrender.com/api/email/generate', {
                 method: 'POST',
                 headers: {
