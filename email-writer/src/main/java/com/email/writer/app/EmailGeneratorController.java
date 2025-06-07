@@ -13,6 +13,13 @@ public class EmailGeneratorController {
 
     private final EmailGeneratorService emailGeneratorService;
 
+    @GetMapping("/ping")
+    public ResponseEntity<Map<String, String>> ping() {
+        Map<String, String> response = new HashMap<>();
+        response.put("status", "ok");
+        return ResponseEntity.ok(response);
+    }
+
     @PostMapping("/generate")
     public ResponseEntity<String> generateEmail(@RequestBody EmailRequest emailRequest){
         String response = emailGeneratorService.generateEmailReply(emailRequest);
