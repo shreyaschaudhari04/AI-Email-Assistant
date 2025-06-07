@@ -41,6 +41,16 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 
 ---
 
+## 🛠️ Installation Guide (Chrome Extension)
+
+1. Clone or download this repository to your local machine.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** (toggle in the top right).
+4. Click **Load unpacked** and select the `extension` folder from this project.
+5. The AI Email Assistant icon should now appear in your Chrome toolbar.
+6. Open Gmail and start composing an email to use the extension.
+
+---
 
 ## 🌍 Deployment
 - Backend deployed via Render (Docker-based)
@@ -60,8 +70,3 @@ An AI-powered Chrome Extension that helps users compose professional email repli
 - Netlify
 
 - Gmail DOM Integration
-
-
-
-
-
