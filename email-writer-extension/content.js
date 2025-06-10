@@ -8,20 +8,28 @@ function findComposeToolbar() {
         '.gu.Up'
     ];
 
-    for(const selector of selectors){
+        for (const selector of selectors) {
         const toolbar = document.querySelector(selector);
-        if(toolbar){
-            return toolbar;
+            if (toolbar) {
+                return toolbar;
+            }
         }
         return null;
-    }
 }
 
 function createAIButton() {
     const button = document.createElement('div');
-    button.className = 'T-I J-J5-Ji aoO v7 T-I-atl L3';
+    button.className = 'T-I J-J5-Ji aoO v7 T-I-atl L3 ai-reply-button';
     button.style.marginRight = '8px';
-    button.innerHTML = 'AI Reply';
+    button.style.backgroundColor = '#1159d1'; 
+    button.style.color = 'white';
+    button.style.border = 'none';
+    button.style.padding = '6px 12px';
+    button.style.borderRadius = '12px';
+    button.style.cursor = 'pointer';
+    button.style.fontWeight = '500';
+    button.style.fontSize = '14px';
+    button.textContent = 'AI Reply';
     button.setAttribute('role', 'button');
     button.setAttribute('data-tooltip', 'Generate AI Reply');
     return button;
@@ -64,7 +72,7 @@ function injectButton(){
             button.innerHTML = 'Generating...';
             button.disabled = true;
 
-            const emailContent = getEmailContent(); 
+            const emailContent = getEmailContent();
             const response = await fetch('https://ai-email-assistant-ffb3.onrender.com/api/email/generate', {
                 method: 'POST',
                 headers: {
@@ -91,7 +99,7 @@ function injectButton(){
             }
         } catch (error) {
             console.log(error);
-            alert('Failed to Generate the reply');
+            alert('Failed to generate reply. Please check your internet or try again later.');
         } finally {
             button.innerHTML = 'AI Reply';
             button.disabled = false;

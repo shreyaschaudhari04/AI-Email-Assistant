@@ -1,9 +1,9 @@
 {
-  "name": "Smart Email Assistant",
+  "name": "Compose Buddy - AI Email Assistant",
   "description": "AI-Powered Email Reply Generator",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions" : ["storage", "activeTab", "system.display"],
+  "permissions" : ["activeTab"],
   "host_permissions" : [
     "http://localhost:8080/*",
     "*://mail.google.com/*"
@@ -28,6 +28,12 @@
 
   "action": {
     "default_title": "Smart Email Assistant",
-    "default_icon": "smart_assistant.png"
-  }
+    "default_icon": "icons/icon3200.png"
+  },
+  "icons": {
+  "16": "icons/icon16.png",
+  "32": "icons/icon32.png",
+  "48": "icons/icon48.png",
+  "128": "icons/icon128.png"
+}
 }
