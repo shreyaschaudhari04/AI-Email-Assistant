@@ -6,7 +6,7 @@ Try It Out: [Link](https://chromewebstore.google.com/detail/goompkldkniogbfhajia
 
 ## 📌 Features
 
-- 🧠 Automatically generates professional email replies using Google Gemini AI.
+- 🧠 Automatically generates professional email replies using Google Gemini AI 2.0.
 - 📩 Seamlessly integrates with Gmail UI.
 - ⚙️ Backend powered by Spring Boot, deployable on Render.
 - 💻 Frontend built with React.
@@ -29,7 +29,7 @@ Try It Out: [Link](https://chromewebstore.google.com/detail/goompkldkniogbfhajia
 ### 🔙 Backend
 - Java 21
 - Spring Boot
-- Google Gemini API
+- Google Gemini AI 2.0 Flash
 - Hosted on [Render](https://render.com)
 
  ### 🧩 Extension
@@ -65,7 +65,7 @@ Try It Out: [Link](https://chromewebstore.google.com/detail/goompkldkniogbfhajia
 
 
 ## 🙌 Acknowledgments
-- Google Gemini API
+- Google Gemini AI 2.0
 
 - Render
 
