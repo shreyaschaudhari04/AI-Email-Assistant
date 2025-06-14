@@ -1,6 +1,6 @@
 # ✨ AI Email Assistant ✉️
 
-An AI-powered Chrome Extension that helps users compose professional email replies directly inside Gmail using Google's Gemini API and a Spring Boot backend.
+An AI-powered Chrome Extension that helps users compose professional email replies directly inside Gmail using Google's Gemini AI Model and a Spring Boot backend.
 
 Try It Out: [Link](https://chromewebstore.google.com/detail/goompkldkniogbfhajiahnfcipnhdhep?authuser=0&hl=en-GB)
 
